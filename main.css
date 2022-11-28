@@ -1,0 +1,218 @@
+body {
+    font-family: 'Oranienbaum', serif;
+    font-family: 'Roboto', sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* фикстрованное меню */
+.menu {
+    background-color: #000;
+    opacity: 1.0;
+}
+.navbar {
+    z-index: 2;
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+    overflow: hidden;
+    position: fixed;
+    top: -0.5vh;
+    width: 1920px;
+}
+.navbar a {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+}
+.menu__item {
+    margin-left: 22px;
+}
+.menu__item:nth-child(8) {
+    margin-left: 250px;
+}
+.menu__item:nth-child(9) {
+    padding-right: 20px;
+    font-size: 12px;
+}
+ul, li {
+    width: 1920px;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    align-items: flex-end;
+    color: #fff;
+}
+.menu__item a {
+    font-size: 2em;
+}
+/* первое изображение */
+.bg-mine {
+    background-image: url(img/bg-main.png);
+    background-position: top ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 40vh;
+}
+/* лого и текст на первом изображении */
+.logo {
+    padding-top: 15%;
+    padding-left: 5%;
+}
+.logo__text {
+    padding-top: 2%;
+    margin-left: 5%;
+}
+.logo__text p {
+    text-decoration: underline;
+}
+/* главный текст */
+.text-mine {
+    font-family: 'Oranienbaum', serif;
+    padding: 4% 0 5% 15%;
+    background-image: url(https://www.clip-reisen.com/img/clip/sticker_novelty.png);
+    background-position: left top ;
+    background-size:auto;
+    background-repeat: no-repeat;
+}
+.text-mine h4 {
+    padding-top: 1%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.0em;
+}
+/* содержит вторую картинку */
+.bg-1 {
+    background-image: url(img/form-reservation-bigcolor.jpg);
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 55vh;
+}
+/* серый текст */
+.text-item {
+    font-family: 'Oranienbaum', serif;
+    padding: 5% 0 5% 15%;
+}
+.text-item p {
+    padding-top: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color: rgb(161, 158, 158);
+}
+.center {
+    width: 95%;
+    padding: 2% 0 0 10%;
+}
+/* таблица */
+table {
+    border-color: orange;
+}
+.table {
+    width: 90%;
+    margin: 0 auto;
+}
+thead {
+    font-size: 3em;
+    background-color: rgb(233, 160, 15);
+
+}
+tbody {
+    font-size: 1.8em;
+    background-color: rgb(246, 202, 45);
+}
+tr:nth-child(5) {
+    background-color: rgb(233, 160, 15);
+}
+.box {
+    border: 1px solid #000;
+    height: 50px;
+    width: 50%;
+}
+/* услуги */
+.uslugi {
+    margin-top: 3%;
+    padding: 2% 0;
+    margin-right: 3%;
+}
+.uslugi__title {
+    font-family: 'Oranienbaum', serif;
+    margin-bottom: 3%;
+}
+.uslugi_item {
+    font-family: 'Roboto', sans-serif;
+    padding-left: 5%;
+    height: 700px;
+    color: #000;
+}
+.hover {
+    box-shadow: 0px 0px 35px 5px rgba(34, 60, 80, 0.6);
+    border: 1px solid rgb(40, 39, 39);
+}
+.paket {
+    border: 1px solid rgb(95, 93, 93);
+}
+.paket_title {
+    padding: 4% 0;
+    font-size: 4em;
+}
+/* кнопки */
+#btn_1 {
+    margin-left: 60px;
+}
+#btn_2 {
+    margin-left: 20%;
+    margin-top: 10%;
+}
+/* третье изображение */
+.bg-2 {
+    background-image: url(img/2razmera_books_preview_1200_c.png);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 30vh;
+    margin-top: 3%;
+}
+/* перечеркнцтый текст */
+del {
+	text-decoration: line-through;
+	text-decoration-color: red;
+}
+/* галерея */
+.pictur_text {
+    margin-top: 5%;
+    font-family: 'Oranienbaum', serif;
+}
+.pictur {
+    padding-top: 5%;
+    margin-left: 30%;
+}
+.text p {
+    font-size: 2em;
+    text-align: left;
+    justify-content: center;
+    padding-top: 50%;
+    padding-bottom: 8%;
+}
+.pictur img {
+    z-index: 1;
+    width: 300px;
+    margin: 3% 0;
+}
+/* footer */
+.footer {
+    margin-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 1%;
+}
+footer {
+    background-color: #000;
+}
+.btn_3 {
+    margin: 1% 0;
+    position: absolute;
+    size: 2em;
+    text-transform: uppercase;
+    border:2px solid #fff;
+    background-color: #000;
+    color: #fff;
+    left: 50%;
+    transform: translate(-50%);
+}
